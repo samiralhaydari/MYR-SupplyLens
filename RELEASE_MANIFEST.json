@@ -1,0 +1,15 @@
+{
+  "project": "MYR SupplyLens",
+  "release": "streamlit-github-deployment-2026-11-15",
+  "entrypoint": "app.py",
+  "platform": "Streamlit Community Cloud",
+  "python": "3.12",
+  "active_model_version": "v2_2",
+  "priority_currencies": ["USD", "CNY", "IDR", "SGD", "THB", "JPY", "KRW"],
+  "inference": "NumPy LiteModel; TensorFlow excluded from hosted requirements",
+  "data_source": "Bank Negara Malaysia via data.gov.my",
+  "dukascopy": false,
+  "v2_4_1_status": "research_candidate_not_promoted",
+  "training_on_host": false,
+  "sqlite_persistence": "local_ephemeral_demo_storage"
+}

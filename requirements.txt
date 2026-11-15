@@ -1,0 +1,12 @@
+# Streamlit Community Cloud runtime — Python 3.12.
+# TensorFlow/Keras are intentionally excluded; inference is NumPy-based.
+streamlit==1.67.0
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+statsmodels==0.15.0
+h5py==3.14.0
+plotly==7.1.0
+requests==2.34.2
